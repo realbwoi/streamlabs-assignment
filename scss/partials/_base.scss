@@ -1,0 +1,53 @@
+:root {
+	--default-tc: #E5E5E5;
+	--default-bc: #330A8B;
+	--alt-bc: #4104C2;
+	--btn-c: #DC2064;
+	--dark-purple: #1F0062;
+	--slate-gray: #828F92;
+	--stat-c: #270470;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	color: var(--default-tc);
+	width: 100%;
+	background:
+		linear-gradient(
+				180deg, 
+				rgba(51, 10, 139, 0.6) 0%,
+				#330A8B 35%),
+		url(../imgs/amusement-arcade-basketball-hoop-1293265.jpg) no-repeat top center;
+	background-size: contain;
+}
+
+ul,
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	background-color: var(--btn-c);
+	padding: 0;
+}
